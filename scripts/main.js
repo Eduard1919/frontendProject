@@ -1,0 +1,25 @@
+window.addEventListener('DOMContentLoaded', function () {
+    heroSwiperFunction()
+    contactsForm()
+    eventsDropdown()
+    burgerFunction()
+    projectsSwiperFunction()
+    publicationsSwiperFunction()
+    gallerySelect()
+    headerDropdown()
+    catalogueTabs()
+    informationSwiperFunction()
+    gallerySwiperFunction()
+    publicationsAccordion()
+})
+window.onresize = function () {
+    eventsDropdown()
+    burgerFunction()
+    projectsSwiperFunction()
+    publicationsSwiperFunction()
+    headerDropdown()
+    informationSwiperFunction()
+    gallerySwiperFunction()
+    $('.catalogue-list').accordion('refresh');
+    publicationsAccordion()
+}

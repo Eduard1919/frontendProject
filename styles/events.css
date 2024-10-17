@@ -1,0 +1,102 @@
+.events-section {
+    margin-top: 79px;
+}
+
+.events {
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.events__main {
+    margin: 15px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.events-swiper {
+    flex-wrap: wrap;
+}
+
+.events-pagination {
+    display: none;
+}
+
+.information {
+    margin-right: auto;
+    border: 2px solid #E5E5E5;
+    padding: 350px 50px 152px 51px;
+    width: calc((100% - 50px*2) / 3);
+    position: relative;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: 100% 30%;
+}
+
+.information:last-child {
+    margin-right: 0;
+}
+
+.information__address {
+    right: 7px;
+    top: 311px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    max-width: 135px;
+    text-align: right;
+}
+
+.information__header {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.6px;
+}
+
+.information__par {
+    margin-top: 3px;
+    width: 400px;
+}
+
+.information__btn {
+    color: var(--purple);
+    position: absolute;
+    bottom: 39px;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid var(--purple);
+    background-color: transparent;
+    transition-property: color, border-bottom-color;
+    transition: 0.2s ease-in-out;
+}
+
+.information1 {background-image: url('../images/information1.jpg');}
+.information2 {background-image: url('../images/information2.jpg');}
+.information3 {
+    background-image: url('../images/information3.jpg');
+    margin-right: 0;
+}
+
+.information4 {
+    background-image: url('../images/information4.jpg');
+    margin-top: 50px;
+}
+
+.information5 {
+    background-image: url('../images/information5.jpg');
+    margin-top: 50px;
+}
+
+.events__open-btn {
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid var(--purple);
+    padding: 17px 32px 17px 33px;
+    align-self: center;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-top: 49px;
+    transition-property: border-color background-color;
+    transition: 0.2s ease-in-out;
+}

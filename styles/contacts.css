@@ -1,0 +1,116 @@
+.contacts-section {
+    margin-top: 80px;
+    position: relative;
+}
+
+.contacts-container {
+    padding-left: 0px;
+}
+
+.contacts-inner-wrapper {
+    padding: 0;
+}
+
+.contacts-wrapper {
+    margin-top: 12px;
+    justify-content: space-between;
+    border-left: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+    padding-left: 160px;
+}
+
+.contacts-sub-header {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.contacts-main {
+    padding-top: 126px;
+}
+
+.contacts__header {
+    padding-left: 160px;
+}
+
+.contacts-main__par {
+    line-height: 16px;
+    margin-top: 16px;
+}
+
+.contacts-form {
+    margin-top: 38px;
+}
+
+.contacts-form-block {
+    margin-top: 22px;
+}
+
+.contacts-form__input {
+    min-width: 400px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    padding: 10px 0 10px 23px;
+}
+
+.contacts-form__input::placeholder {
+    font-size: 16px;
+}
+
+.contacts-form__btn {
+    background-color: var(--light-txt-color);
+    font-size: 18px;
+    padding: 17px 35px 16px 29px;
+    border: 3px solid var(--purple);
+    border-radius: 32px;
+    max-width: 157px;
+    margin-top: 22px;
+}
+
+.contacts__sn-header {
+    margin-top: 41px;
+}
+
+.contacts__list {
+    margin-top: 20px;
+}
+
+.contacts__li,
+.contacts__link {
+    width: 40px;
+    min-height: 40px;
+}
+
+.contacts__li:last-child {
+    margin-left: 20px;
+}
+
+.sn-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.telegram {background-image: url('../images/telegram.svg');}
+.whatsapp {background-image: url('../images/whatsapp.svg');}
+
+[class*='ground-pane'] {
+    filter: grayscale();
+}
+
+.contacts__map-block {
+    width: 70%;
+    height: 700px;
+    border-left: 1px solid #cacaca;
+    position: relative;
+    margin-left: auto;
+}
+
+.contacts__map {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    left: 0;
+}
+
+.contacts-mobile {
+    display: none;
+}

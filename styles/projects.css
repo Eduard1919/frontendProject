@@ -1,0 +1,125 @@
+.projects {
+    margin-top: 81px;
+}
+
+.projects__header {
+    font-size: 48px;
+}
+
+.projects__par {
+    line-height: 32px;
+    padding-right: 523px;
+    margin-top: 15px;
+}
+
+.projects__par__link {
+    color: var(--purple);
+    background-color: transparent;
+    border: none;
+}
+
+.projects__sub-header {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.popup-block {
+    display: inline-block;
+    position: relative;
+}
+
+.popup-txt {
+    opacity: 0;
+    position: absolute;
+    background-color: #CACACA;
+    color: var(--light-txt-color);
+    bottom: 38px;
+    left: -90px;
+    min-width: 260px;
+    transition: opacity 0.2s ease-in-out;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 11px 10px 11px;
+    text-align: center;
+    cursor: auto;
+    z-index: -1;
+}
+
+.projects-info-icon {
+    cursor: pointer;
+}
+
+.popup-block:hover .popup-txt {
+    opacity: 1;
+    z-index: 1;
+}
+
+.projects__swiper-block {
+    position: relative;
+    margin-top: 26px;
+}
+
+.projects-swiper {
+    max-width: 1450px;
+    position: initial;
+    margin-top: 25px;
+}
+
+.projects-next,
+.projects-prev {
+    width: 30px;
+    height: 30px;
+    background-color: #ECECEC;
+    border: 2px solid #ECECEC;
+    border-radius: 100%;
+    position: absolute;
+    top: 55.4%;
+    transition-property: background-color, border-color;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.projects-swiper-icon {
+    width: 22px;
+    height: 22px;
+    padding: 7px 0 3px 1px;
+    transition: stroke 0.2s ease-in-out;
+}
+
+.projects-icon-path {
+    transition: stroke 0.2s ease-in-out;
+}
+
+.projects-prev {
+    left: 0;
+}
+
+.projects-next {
+    right: 0;
+    padding: 0 0 3px 2px;
+    left: initial;
+}
+
+.projects-next::after {
+    left: -12px;
+}
+
+.projects-info-icon-mobile {display: none;}
+
+.projects-slide {
+    max-width: 450px;
+    min-height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #CACACA;
+    transition: filter 0.2s ease-in-out;
+    filter: grayscale();
+}
+
+.projects-slide1 {background-image: url('../projects-swiper/projects-swiper1.png');}
+.projects-slide2 {background-image: url('../projects-swiper/projects-swiper2.png');}
+.projects-slide3 {background-image: url('../projects-swiper/projects-swiper3.png');}
+.projects-slide4 {background-image: url('../projects-swiper/projects-swiper4.png');}
+.projects-slide5 {background-image: url('../projects-swiper/projects-swiper5.png');}
+.projects-slide6 {background-image: url('../projects-swiper/projects-swiper6.png');}
+.projects-slide7 {background-image: url('../projects-swiper/projects-swiper7.png');}

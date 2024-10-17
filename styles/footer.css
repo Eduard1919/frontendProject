@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--black);
+    padding: 48px 0 36px 0;
+}
+
+.footer__list {
+    margin-left: auto;
+}
+
+.footer__li {
+    width: 45.4px;
+    min-height: 45.4px;
+    margin-right: 20px;
+}
+
+.footer__li:last-child {
+    margin-right: 0;
+}
+
+.footer__link {
+    width: 45.4px;
+    min-height: 45.4px;
+    transition-property: transrom filter;
+    transition: 0.2s ease-in-out;
+}
+
+.vk {background-image: url('../images/vk.svg');}
+.fb {background-image: url('../images/fb.svg');}
+.inst {background-image: url('../images/instagram.svg');}

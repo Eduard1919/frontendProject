@@ -1,0 +1,191 @@
+.publications-section {
+    margin-top: 80px;
+    padding-top: 84px;
+    padding-bottom: 41px;
+    background-image: url('../images/publications-bg.jpg');
+}
+
+.publications {
+    color: var(--light-txt-color);
+    position: relative;
+}
+
+.publications__sub-header-mobile {display: none;}
+
+.publications__sub-header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 13px;
+}
+
+.publications__checkbox-item {
+    padding-left: 24px;
+    position: relative;
+    transition: color 0.2s ease-in-out;
+    width: fit-content;
+}
+
+.publications__checkbox-item::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 10px;
+    left: 0;
+    border: 1px solid var(--light-txt-color);
+}
+
+.publications__checkbox-item::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    top: 14px;
+    left: 4px;
+    background-color: var(--purple);
+    border-radius: 100%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.publications__input:checked + .publications__checkbox-item::after {opacity: 1;}
+.publications__input:checked + .publications__checkbox-item::before {border-color: var(--purple);}
+.publications__input:checked + .publications__checkbox-item {color: var(--purple);}
+.publications__input:active + .publications__checkbox-item::before {border-color: var(--dark-purple);}
+.publications__input:active + .publications__checkbox-item {color: var(--dark-purple);}
+.publications__input:active + .publications__checkbox-item::after {border-color: var(--dark-purple);}
+.publications__input:focus + .publications__checkbox-item {
+    outline: 2px solid var(--purple);
+    outline-offset: 2px;
+}
+
+.publications-swiper {
+    width: 1150px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: initial;
+}
+
+.checkbox-label {
+    display: inline-flex;
+}
+
+.publ-wrapper {
+    margin-top: 93px;
+}
+
+.publ-slide {
+    width: 350px;
+    height: 515px;
+}
+
+.publications-swiper__article {
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 415px 0 0 0;
+    max-width: 350px;
+}
+
+.publications-swiper__article1 {background-image: url('../publ-swiper/publ-slide1.jpg');}
+.publications-swiper__article2 {background-image: url('../publ-swiper/publ-slide2.jpg');}
+.publications-swiper__article3 {background-image: url('../publ-swiper/publ-slide3.jpg');}
+.publications-swiper__article4 {background-image: url('../publ-swiper/publ-slide4.jpg');}
+.publications-swiper__article5 {background-image: url('../publ-swiper/publ-slide5.jpg');}
+.publications-swiper__article6 {background-image: url('../publ-swiper/publ-slide6.jpg');}
+.publications-swiper__article7 {background-image: url('../publ-swiper/publ-slide7.jpg');}
+
+.publications-swiper__author {
+    margin-top: 5px;
+}
+
+.publications-swiper__header,
+.publications-swiper__author,
+.publications-swiper__price {
+    line-height: 16px;
+}
+
+.publications-swiper__header {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.publications-swiper__price {
+    font-style: italic;
+    position: absolute;
+    right: 0;
+}
+
+.publications-swiper__order-art {
+    background-color: transparent;
+    position: relative;
+    border: 2px solid var(--purple);
+    padding: 8px 8px 10px 14px;
+    border-radius: 20px;
+    color: var(--light-txt-color);
+    margin-top: 20px;
+    max-width: 92px;
+    letter-spacing: 1.2px;
+    transition-property: border-color background-color;
+    transition: 0.2s ease-in-out;
+}
+
+.publications-swiper__order-art:focus {
+    outline: none;
+    border-color: var(--light-purple);
+}
+
+.publ-pagination {
+    left: 41px;
+    top: 5%;
+}
+
+.publ-next,
+.publ-prev {
+    top: 8.4%;
+}
+
+.publ-prev {
+    left: 0;
+}
+
+.publ-next {
+    left: 8.7%;
+}
+
+.publications__filter-block {
+    margin-top: 27px;
+}
+
+.publications__filter-header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.publications-filter {
+    border: 1px solid var(--purple);
+    position: relative;
+    margin-top: 8px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.publications__filter-txt {
+    margin-left: 10px;
+    min-height: 40px;
+    padding-top: 3px;
+}
+
+
+.purple-bg {
+    background-color: rgba(157,92,208,0.5);
+    width: 73px;
+    padding-left: 9px;
+    border: none;
+    color: var(--light-txt-color);
+}
+
+.purple-bg::placeholder {
+    color: var(--light-txt-color);
+}

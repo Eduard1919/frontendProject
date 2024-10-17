@@ -1,0 +1,17 @@
+.about-us-section {
+    margin-top: 80px;
+}
+
+.about-us {
+    font-weight: 400;
+}
+
+.about-us__header {
+    font-weight: inherit;
+}
+
+.about-us__par {
+    line-height: 32px;
+    margin-top: 16px;
+    padding-right: 523px;
+}

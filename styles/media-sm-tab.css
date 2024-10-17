@@ -1,0 +1,269 @@
+@media(max-width: 1023px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .form-active {
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-active::after,
+    .search__input {
+        min-width: 576px;
+    }
+
+    .input-inactive { 
+        min-width: initial;
+        width: 0px;
+        display: none;
+    }
+
+    .header-search {
+        background: transparent;
+        outline: none;
+        border: none;
+        justify-content: flex-end;
+    }
+
+    .hero {
+        padding-top: 110px;
+        padding-bottom: 116px;
+    }
+
+    .hero-bg {
+        max-height: 768px;
+    }
+
+    .hero-slider1 {background-image: url('../hero-slider/hero-slider-small-tab1.jpg');}
+    .hero-slider2 {background-image: url('../hero-slider/hero-slider-small-tab2.jpg');}
+    .hero-slider3 {background-image: url('../hero-slider/hero-slider-small-tab3.jpg');}
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery-main__par {
+        display: none;
+    }
+
+    .gallery-swiper {
+        margin: 84px 0 0 0;
+    }
+
+    .gal-prev, .gal-next {
+        top: 3.2%;
+    }
+
+    .gal-next {
+        left: 15%;
+    }
+
+    .publ-next {
+        left: 16%;
+    }
+
+    .gallery-swiper {
+        max-width: 670px;
+        max-height: 654px;
+    }
+      
+    .gal-slide {
+        max-width: 317px;
+        max-height: 280px;
+        background-size: 320px 280px;
+    }
+
+    .gallery-main__par768 {
+        display: inline-block;
+        margin-top: 31px;
+    }
+
+    .lang-list {
+        padding-top: 13px;
+    }
+
+    .lang-list__item {
+        margin-left: 54px;
+    }
+
+    .catalogue__info {
+        margin-bottom: 16px;
+    }
+
+    .catalogue-main {
+        flex-direction: column;
+    }
+
+    .catalogue-accordion__list {
+        columns: 3;
+        padding-bottom: 60px;
+    }
+
+    .catalogue-biography,
+    .catalogue-list {
+        width: 100%;
+    }
+
+    .catalogue-biography {
+        order: 1;
+        margin-top: 47px;
+    }
+
+    .catalogue-list {
+        margin-left: 0;
+    }
+
+    .bio-article__par {
+        max-width: max-content;
+    }
+
+    .events-section {
+        margin-top: 69px;
+    }
+
+    .information {
+        max-width: 318px;
+        margin: 0;
+        padding-bottom: 140px;
+        width: calc((100% - 27px*2) / 2);
+    }
+
+    .information:nth-child(2n) {
+        margin-left: auto;
+    }
+
+    .information:nth-child(n+3) {
+        margin-top: 50px;
+    }
+
+    .publications-section {
+        margin-top: 85px;
+        padding-top: 80px;
+        padding-bottom: 73px;
+    }
+
+    .publications {
+        flex-direction: column;
+    }
+
+    .publications__header {
+        order: 0;
+    }
+
+    .publications__sub-header {
+        margin-top: 16px;
+    }
+
+    .publications__checkbox {
+        margin-top: 0;
+        max-height: 130px;
+        flex-wrap: wrap;
+    }
+
+    .publications__filter-block {
+        display: inline-flex;
+    }
+
+    .checkbox-label {
+        margin-right: 53px;
+    }
+
+    .checkbox-label:nth-child(n+5) {
+        margin-right: 46px;
+    }
+
+    .checkbox-label:nth-child(n+9) {
+        margin-right: 0;
+    }
+
+    .publications-swiper {
+        max-width: 641px; 
+        max-height: 550px;
+    }
+
+    .publ-slide,
+    .publications-swiper__article {
+        max-width: 290px;
+        max-height: 433px;
+    }
+
+    .publications__filter-block {
+        margin-top: 25px;
+    }
+
+    .publications-filter {
+        margin-top: 5px;
+    }
+
+    .publications-swiper {
+        margin-left: 0px;
+        max-width: 614px;
+    }
+
+    .publ-wrapper {
+        margin-top: 110px;
+    }
+
+    .publ-next,
+    .publ-prev {
+        top: 13.4%;
+    }
+
+    .publ-pagination {
+        top: 9.5%;
+    }
+
+    .projects__par__link {
+        display: block;
+        margin-top: 7px;
+    }
+
+    .projects__swiper-block {
+        margin-top: 37px;
+    }
+
+    .projects-swiper {
+        max-width: 562px;
+        margin-top: 34px;
+    }
+
+    .projects-next,
+    .projects-prev {
+        top: 57.4%;
+    }
+
+    .projects-slide {
+        max-width: 264px;
+        min-height: 106px;
+    }
+
+    .contacts-wrapper {
+        margin-top: 16px;
+    }
+
+    .contacts-inner-wrapper {
+        padding: 0;
+    }
+
+    .contacts-main {
+        min-width: 379px;
+        padding-bottom: 92px;
+        padding-right: 42px;
+    }
+
+    .contacts-section {
+        margin-top: 78px;
+    }
+
+    .contacts-form {
+        margin-top: 38px;
+    }
+
+    .contacts__map-block {
+        margin-left: 0;
+    }
+}
